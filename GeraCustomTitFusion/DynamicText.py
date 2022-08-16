@@ -27,7 +27,7 @@ def titleBali():
     posY =  '0.52111'
  
     dtitle.genTemplate  = 'template_anibal.txt'
-    dtitle.templateName = 'TitleDyn BaliCustom.setting'
+    dtitle.templateName = 'TitleDyn BaliCustom.txt'
     dtitle.replace(text, text2, "Arial", "Tahoma", "Bold","Regular", '0.1234','0.1111', '0.2222', '0.3333', '0.4444', posX, posY)
 
 
