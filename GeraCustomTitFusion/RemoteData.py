@@ -14,6 +14,7 @@ def pegaArrayYFinance():
 
 def listaTresPrimeiros():
     count = 0
+    countReverse = 3
     arr = pegaArrayYFinance()
     dict = {}
 
@@ -23,10 +24,13 @@ def listaTresPrimeiros():
             nome=arr[count][1]
             deltaDay=arr[count][4]
             list = [ticker, nome, deltaDay]
-            dict[count] = [list]
+            dict[countReverse] = [list]
             
 
             count =+ count +1
+            countReverse =+ countReverse -1
+        else:
+            break
     return dict
 
 
